@@ -1,17 +1,45 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+//The first Java lesson
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+/*
+Just multiple-lines comment
+ */
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+/*
+In Java everything is an objekt. Main realisation of our objekt is a Class
+ */
+
+// Функциональное
+// Процедурное
+// ООП
+
+// Оранжевое слово означает ключевое слово в JAVA
+// Keyboard-зарезервированное слово в языке программирования
+// Upper-Camel Case
+// Class-имя сущиствительное животное, человек, введение
+
+  public class Javaintro
+{
+
+    public static void main(String[] args)//Entry point-точка входа
+    {
+        // Integrated output class
+        System.out.println("Welkom to Java Profession Lesson."); //ln=>next line
+
+        //print
+        System.out.print("Welkom to Java Profession Lessons with print"); //выведи мне сообщение и там же останься
+
+        //print
+        System.out.print("Welkom to Java");
+        System.out.print("This is the next line...");
+
+        //println vs.print
+        System.out.println(); // любой вывод требует чего то на выход-передает знак следующей строчки
+        System.out.print("5"); //error-так нельзя делать, нужно что то ввести-хотя бы кавычки
+
+        //Java 1.8
+        //Vava 8/ 11 /14
+        //LTS(Long-Ters Supports)-STS(Shor-Ters Supports)
+        //Java
+        //Legasy
     }
 }

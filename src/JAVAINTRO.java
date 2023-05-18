@@ -16,7 +16,7 @@ In Java everything is an objekt. Main realisation of our objekt is a Class
 // Keyboard-зарезервированное слово в языке программирования
 // Upper-Camel Case
 // Class-имя сущиствительное животное, человек, введение
-
+//TEST
   public class JAVAINTRO
 {
 

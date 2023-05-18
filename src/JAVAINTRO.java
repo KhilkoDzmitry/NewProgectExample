@@ -17,7 +17,7 @@ In Java everything is an objekt. Main realisation of our objekt is a Class
 // Upper-Camel Case
 // Class-имя сущиствительное животное, человек, введение
 
-  public class main
+  public class JAVAINTRO
 {
 
     public static void main(String[] args)//Entry point-точка входа

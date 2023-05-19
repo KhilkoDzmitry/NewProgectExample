@@ -21,11 +21,11 @@ import java.util.Scanner;//импортировали
         System.out.print("Введите weight: ");
         int weight = scanner.nextInt();
 
-        System.out.println("Name: " + name + "\n"
-                + "Surname: " + surname + "\n"
-                + "Age: " + age + "\n"
-                + "Height: " + height + "\n"
-                + "Weight: " + weight + "\n");
+        System.out.println("Name:" + name);
+        System.out.println("Surname:" + surname);
+        System.out.println("Age:" + age);
+        System.out.println("Height:" + height);
+        System.out.println("Weight:" + weight);
 
 
 

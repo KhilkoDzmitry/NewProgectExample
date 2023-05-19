@@ -1,28 +1,37 @@
-//The first Java lesson
 
-/*
-Just multiple-lines comment
- */
 
-/*
-In Java everything is an objekt. Main realisation of our objekt is a Class
- */
-
-// Функциональное
-// Процедурное
-// ООП
-
-// Оранжевое слово означает ключевое слово в JAVA
-// Keyboard-зарезервированное слово в языке программирования
-// Upper-Camel Case
-// Class-имя сущиствительное животное, человек, введение
-//TEST
+import java.util.Scanner;//импортировали
   public class JAVAINTRO
 {
-
     public static void main(String[] args){//Entry point-точка входа
+        Scanner scanner = new Scanner(System.in);//пакеты класса сканнер не импортирются java.util., нужно вручную
 
-        String string=new String("dfijighigie");
-        Scanner s=new Scanner();
+        System.out.print("Введите name:");
+        String name = scanner.nextLine();
+
+        System.out.print("Введите surname:");
+        String surname = scanner.nextLine();
+
+        System.out.print("Введите age: ");
+        int age = scanner.nextInt();
+
+        System.out.print("Введите height: ");
+        double height = scanner.nextDouble();
+
+        System.out.print("Введите weight: ");
+        double weight = scanner.nextDouble();
+
+        System.out.println("Name: " + name + "\n"
+                + "Surname: " + surname + "\n"
+                + "Age: " + age + "\n"
+                + "Height: " + height + "\n"
+                + "Weight: " + weight + "\n");
+
+
+
+
+
+
     }
+
 }

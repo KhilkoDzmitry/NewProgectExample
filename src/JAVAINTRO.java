@@ -20,26 +20,9 @@ In Java everything is an objekt. Main realisation of our objekt is a Class
   public class JAVAINTRO
 {
 
-    public static void main(String[] args)//Entry point-точка входа
-    {
-        // Integrated output class
-        System.out.println("Welkom to Java Profession Lesson."); //ln=>next line
+    public static void main(String[] args){//Entry point-точка входа
 
-        //print
-        System.out.print("Welkom to Java Profession Lessons with print"); //выведи мне сообщение и там же останься
-
-        //print
-        System.out.print("Welkom to Java");
-        System.out.print("This is the next line...");
-
-        //println vs.print
-        System.out.println(); // любой вывод требует чего то на выход-передает знак следующей строчки
-        System.out.print("5"); //error-так нельзя делать, нужно что то ввести-хотя бы кавычки
-
-        //Java 1.8
-        //Vava 8/ 11 /14
-        //LTS(Long-Ters Supports)-STS(Shor-Ters Supports)
-        //Java
-        //Legasy
+        String string=new String("dfijighigie");
+        Scanner s=new Scanner();
     }
 }

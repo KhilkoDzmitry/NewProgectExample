@@ -16,10 +16,10 @@ import java.util.Scanner;//импортировали
         int age = scanner.nextInt();
 
         System.out.print("Введите height: ");
-        double height = scanner.nextDouble();
+        int height = scanner.nextInt();
 
         System.out.print("Введите weight: ");
-        double weight = scanner.nextDouble();
+        int weight = scanner.nextInt();
 
         System.out.println("Name: " + name + "\n"
                 + "Surname: " + surname + "\n"

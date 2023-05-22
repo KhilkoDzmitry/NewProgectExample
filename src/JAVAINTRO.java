@@ -1,6 +1,6 @@
 
 
-import java.util.Scanner;//импортировали
+import java.util.Scanner;//импортировалиefw
   public class JAVAINTRO
 {
     public static void main(String[] args){//Entry point-точка входа

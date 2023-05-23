@@ -48,3 +48,14 @@ class Zadacha3 {
         System.out.println("Your BMI - " + bmi);
     }
 }
+
+
+class JAVADZ2 {
+    public static void main(String[] args) {
+        getSymbol();
+    }
+    public static void getSymbol(){
+        char symbol = 'X';
+        System.out.println(symbol + " - " + (int)symbol);
+    }
+}

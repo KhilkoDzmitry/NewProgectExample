@@ -26,13 +26,25 @@ import java.util.Scanner;
         System.out.println("Age:" + age);
         System.out.println("Height:" + height);
         System.out.println("Weight:" + weight);
-
-
-
-
-
-
     }
 
 }
 
+
+class Zadacha3 {
+    public static void main(String[] args) {
+
+        getBodyMassIndex();
+    }
+
+    public static void  getBodyMassIndex(){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your height: ");
+        int height = scanner.nextInt();
+        System.out.print("Enter your weight: ");
+        double weight = scanner.nextDouble();
+        double bmi = weight/((Math.pow(height * 0.01, 2)));
+        System.out.println("Your BMI - " + bmi);
+    }
+}

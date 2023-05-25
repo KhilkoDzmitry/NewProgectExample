@@ -1,7 +1,7 @@
 
 
 import java.util.Scanner;
-  public class JAVAINTRO
+  public class SimvolZNACHENIE
 {
     public static void main(String[] args){//Entry point-точка входа
         Scanner scanner = new Scanner(System.in);//пакеты класса сканнер не импортирются java.util., нужно вручную
@@ -31,7 +31,7 @@ import java.util.Scanner;
 }
 
 
-class Zadacha3 {
+class BMI {
     public static void main(String[] args) {
 
         getBodyMassIndex();

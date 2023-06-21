@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class MyMain {
     public static void main(String[] args) {
-threeDimensionalArray();
+//threeDimensionalArray();
+getChessTable();
     }
     public static void threeDimensionalArray()
     {
@@ -44,6 +45,31 @@ threeDimensionalArray();
         System.out.println();
         System.out.println(Arrays.deepToString(threeDimensionalArray));
     }
+
+    public static void getChessTable()
+    {
+        char[][] chessTable=new char[8][8];
+        char[] symbols = new char[] {'w', 'B'};
+
+        for (int row=0, symbol=0; row < chessTable.length; row++)
+        {
+            for (int col=0; col<chessTable.length; col++)
+            {
+                chessTable[row][col]=symbols[symbol];
+                symbol = (symbol==0) ?++symbol: --symbol;
+            }
+        }
+
+        for (char[] letter:chessTable)
+        {
+            for (char inner : letter)
+            {
+                System.out.print(inner + "\t");
+            }
+            System.out.println();
+        }
+    }
+
 public static Scanner cin()
         {
         return new Scanner(System.in);

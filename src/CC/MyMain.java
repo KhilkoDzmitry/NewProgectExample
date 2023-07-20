@@ -26,8 +26,10 @@ public class MyMain {
         System.out.println(paysera.getCreditCardinfo());
         System.out.println();
         System.out.println("--------------------------------------------");
+
         tbc.addMoney(-1000);
-        tbc.getBalance();
+        System.out.println("You balance is:" + tbc.getBalance());
+        tbc.withdraw(2000);
 
 
     }

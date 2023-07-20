@@ -27,15 +27,26 @@ public class CreditCard {
 
     public void withdraw(double withdrawSum)
     {
-        if (withdrawSum<=this.balance);
+
+        if (withdrawSum <= this.balance)
         {
             this.balance-=withdrawSum;
-
         }else{
-            System.out.println("You cannot withdraw the Sum:" + withdrawSum+". " +
+            System.out.println("You cannot withdraw the Sum:" + withdrawSum + ". " +
                     "Because you don`t have enough money. Your balance is:" + this.balance);
+        }
+
+
+
+
+
+
     }
-    }
+
+
+
+
+
     public String getCreditCardinfo()
     {
         return "Credit Card account Number:" +this.accountNumber +"\n" +
